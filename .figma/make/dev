@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+
+echo "Starting development server (Vite on port ${PORT:-8000})"
+# Bind explicitly to the configured port; Make Local hosts its own browser,
+# so Vite must not open the system browser.
+npm run app:dev -- --port "${PORT:-8000}" --strictPort
