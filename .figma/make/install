@@ -1,0 +1,11 @@
+#!/bin/bash
+set -e
+
+echo "Installing project dependencies (npm ci)"
+# Use a clean, reproducible install from package-lock.json when possible;
+# fall back to npm install if the lockfile is out of sync.
+if ! npm ci; then
+  echo "npm ci failed, falling back to npm install"
+  npm install
+fi
+echo "Dependencies installed"

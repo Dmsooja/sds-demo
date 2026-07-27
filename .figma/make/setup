@@ -1,0 +1,15 @@
+#!/bin/bash
+set -e
+
+echo "Checking system dependencies..."
+
+# Node — required to run Vite and install packages
+NODE_VERSION="$(node --version 2>/dev/null || echo "none")"
+if [[ "$NODE_VERSION" == "none" ]]; then
+  echo "Installing node"
+  brew install node
+else
+  echo "Node $NODE_VERSION OK"
+fi
+
+echo "System dependencies verified."
