@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e
+
+echo "Starting Vite development server"
+
+# Bind to the port Make Local expects and listen on all interfaces so the
+# preview can reach it. --host avoids opening a browser on its own.
+npm run app:dev -- --host --port "${PORT:-8000}"
