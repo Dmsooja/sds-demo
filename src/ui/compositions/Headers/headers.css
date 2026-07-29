@@ -6,6 +6,10 @@
   z-index: var(--global-stack-top);
 }
 
+.button.header-auth-register {
+  background-color: var(--sds-color-text-utilities-text-on-measurement);
+}
+
 .header-auth-avatar-button {
   --border-radius: var(--sds-size-radius-200);
   align-items: center;
