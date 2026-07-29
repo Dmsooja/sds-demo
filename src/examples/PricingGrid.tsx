@@ -16,7 +16,10 @@ export function PricingGrid() {
     usePricing();
   const [pricingInterval, setPricingInterval] = useState("monthly");
   const flexGap = isMobile ? "600" : "1200";
-  const options = pricingInterval === "monthly" ? monthlyPlans : annualPlans;
+  const options =
+    pricingInterval === "monthly"
+      ? monthlyPlans
+      : annualPlans.map((plan) => ({ ...plan, price: plan.price * 0.95 }));
 
   return (
     <Section padding={sectionPadding} variant="stroke">

@@ -1,9 +1,5 @@
 .header {
   background: var(--sds-color-background-default-default);
-  left: 0;
-  position: sticky;
-  top: 0;
-  z-index: var(--global-stack-top);
 }
 
 .button.header-auth-register {
