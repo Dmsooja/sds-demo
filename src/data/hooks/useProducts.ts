@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import { ProductsContext } from "../../data/contexts/ProductsContext";
-import { ProductsContextType } from "../../data/types/products";
+import { ProductsContext } from "../contexts/ProductsContext";
+import { ProductsContextType } from "../types/products";
 
 /**
  * Hook to access products context

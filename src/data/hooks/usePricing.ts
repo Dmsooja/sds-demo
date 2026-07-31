@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import { PricingContext } from "../../data/contexts/PricingContext";
-import { PricingContextType } from "../../data/types/pricing";
+import { PricingContext } from "../contexts/PricingContext";
+import { PricingContextType } from "../types/pricing";
 
 /**
  * Hook to access pricing context
