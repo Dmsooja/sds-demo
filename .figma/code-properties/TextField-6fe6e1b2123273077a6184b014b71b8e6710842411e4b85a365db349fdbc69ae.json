@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "TextField",
+    "filePath": "node_modules/react-aria-components/src/TextField.tsx"
+  },
+  "codeProperties": {
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the text field is disabled.",
+      "defaultValue": false
+    },
+    "isReadOnly": {
+      "type": "boolean",
+      "name": "Read Only",
+      "description": "Whether the text field is read only.",
+      "defaultValue": false
+    },
+    "isRequired": {
+      "type": "boolean",
+      "name": "Required",
+      "description": "Whether the text field is required.",
+      "defaultValue": false
+    },
+    "isInvalid": {
+      "type": "boolean",
+      "name": "Invalid",
+      "description": "Whether the value is invalid."
+    },
+    "type": {
+      "type": "string",
+      "name": "Type",
+      "description": "The type of input to render.",
+      "options": [
+        "text",
+        "search",
+        "url",
+        "tel",
+        "email",
+        "password",
+        ""
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "text": "Text",
+          "search": "Search",
+          "url": "URL",
+          "tel": "Tel",
+          "email": "Email",
+          "password": "Password",
+          "": "Default"
+        }
+      }
+    },
+    "inputMode": {
+      "type": "string",
+      "name": "Input Mode",
+      "description": "Hints at the type of data that might be entered by the user.",
+      "options": [
+        "none",
+        "text",
+        "tel",
+        "url",
+        "email",
+        "numeric",
+        "decimal",
+        "search"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "none": "None",
+          "text": "Text",
+          "tel": "Tel",
+          "url": "URL",
+          "email": "Email",
+          "numeric": "Numeric",
+          "decimal": "Decimal",
+          "search": "Search"
+        }
+      }
+    },
+    "autoComplete": {
+      "type": "string",
+      "name": "Auto Complete",
+      "description": "Describes the type of autocomplete functionality the browser should provide."
+    },
+    "maxLength": {
+      "type": "number",
+      "name": "Max Length",
+      "description": "The maximum number of characters allowed."
+    },
+    "minLength": {
+      "type": "number",
+      "name": "Min Length",
+      "description": "The minimum number of characters required."
+    },
+    "pattern": {
+      "type": "string",
+      "name": "Pattern",
+      "description": "Regex pattern the value must match."
+    },
+    "placeholder": {
+      "type": "string",
+      "name": "Placeholder",
+      "description": "Placeholder text for the input."
+    },
+    "autoFocus": {
+      "type": "boolean",
+      "name": "Auto Focus",
+      "description": "Whether the input should be focused on mount."
+    }
+  }
+}

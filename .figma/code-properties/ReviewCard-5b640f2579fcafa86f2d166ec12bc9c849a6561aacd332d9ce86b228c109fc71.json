@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ReviewCard",
+    "filePath": "src/ui/compositions/Cards/Cards.tsx"
+  },
+  "codeProperties": {
+    "stars": {
+      "name": "Stars",
+      "type": "number",
+      "description": "Number of stars (1-5)"
+    },
+    "title": {
+      "name": "Title",
+      "type": "string"
+    },
+    "body": {
+      "name": "Body",
+      "type": "string"
+    },
+    "name": {
+      "name": "Name",
+      "type": "string"
+    },
+    "date": {
+      "name": "Date",
+      "type": "string"
+    }
+  }
+}

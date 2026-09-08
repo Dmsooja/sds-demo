@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "DialogTrigger",
+    "filePath": "node_modules/react-aria-components/src/Dialog.tsx"
+  },
+  "codeProperties": {
+    "defaultOpen": {
+      "type": "boolean",
+      "name": "Default Open"
+    },
+    "isOpen": {
+      "type": "boolean",
+      "name": "Open"
+    }
+  }
+}

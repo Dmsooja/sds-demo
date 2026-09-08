@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "TagGroup",
+    "filePath": "node_modules/react-aria-components/src/TagGroup.tsx"
+  },
+  "codeProperties": {
+    "selectionMode": {
+      "type": "string",
+      "name": "Selection Mode",
+      "description": "The selection mode for the tag group.",
+      "options": [
+        "none",
+        "single",
+        "multiple"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "none": "None",
+          "single": "Single",
+          "multiple": "Multiple"
+        }
+      }
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether all tags in the group are disabled."
+    },
+    "disabledBehavior": {
+      "type": "string",
+      "name": "Disabled Behavior",
+      "description": "How disabled tags behave with respect to selection.",
+      "options": [
+        "selection",
+        "all"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "selection": "Selection",
+          "all": "All"
+        }
+      }
+    }
+  }
+}

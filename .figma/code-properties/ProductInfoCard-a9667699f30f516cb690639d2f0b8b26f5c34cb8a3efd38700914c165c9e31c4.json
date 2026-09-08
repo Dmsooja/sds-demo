@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ProductInfoCard",
+    "filePath": "src/ui/compositions/Cards/Cards.tsx"
+  },
+  "codeProperties": {
+    "heading": {
+      "name": "Heading",
+      "type": "string"
+    },
+    "price": {
+      "name": "Price",
+      "type": "string"
+    },
+    "description": {
+      "name": "Description",
+      "type": "string"
+    },
+    "rating": {
+      "name": "Rating",
+      "type": "number"
+    },
+    "asset": {
+      "name": "Asset",
+      "type": {
+        "name": "other",
+        "value": "figma-reference"
+      },
+      "control": false
+    }
+  }
+}

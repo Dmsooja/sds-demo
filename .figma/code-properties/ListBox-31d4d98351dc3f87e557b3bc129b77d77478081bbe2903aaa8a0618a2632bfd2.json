@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ListBox",
+    "filePath": "src/ui/primitives/ListBox/ListBox.tsx"
+  },
+  "codeProperties": {
+    "selectionMode": {
+      "type": "string",
+      "name": "Selection Mode",
+      "options": [
+        "none",
+        "single",
+        "multiple"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "none": "None",
+          "single": "Single",
+          "multiple": "Multiple"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Popover",
+    "filePath": "node_modules/react-aria-components/src/Popover.tsx"
+  },
+  "codeProperties": {
+    "trigger": {
+      "type": "string",
+      "name": "Trigger"
+    },
+    "isOpen": {
+      "type": "boolean",
+      "name": "Open"
+    },
+    "defaultOpen": {
+      "type": "boolean",
+      "name": "Default Open"
+    },
+    "isEntering": {
+      "type": "boolean",
+      "name": "Is Entering"
+    },
+    "isExiting": {
+      "type": "boolean",
+      "name": "Is Exiting"
+    },
+    "placement": {
+      "type": "string",
+      "name": "Placement",
+      "options": [
+        "top",
+        "bottom",
+        "left",
+        "right",
+        "top left",
+        "top right",
+        "bottom left",
+        "bottom right",
+        "left top",
+        "left bottom",
+        "right top",
+        "right bottom",
+        "start",
+        "end",
+        "top start",
+        "top end",
+        "bottom start",
+        "bottom end"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "top": "Top",
+          "bottom": "Bottom",
+          "left": "Left",
+          "right": "Right",
+          "top left": "Top Left",
+          "top right": "Top Right",
+          "bottom left": "Bottom Left",
+          "bottom right": "Bottom Right",
+          "left top": "Left Top",
+          "left bottom": "Left Bottom",
+          "right top": "Right Top",
+          "right bottom": "Right Bottom",
+          "start": "Start",
+          "end": "End",
+          "top start": "Top Start",
+          "top end": "Top End",
+          "bottom start": "Bottom Start",
+          "bottom end": "Bottom End"
+        }
+      }
+    },
+    "offset": {
+      "type": "number",
+      "name": "Offset",
+      "defaultValue": 8
+    },
+    "isNonModal": {
+      "type": "boolean",
+      "name": "Non Modal"
+    },
+    "isDismissable": {
+      "type": "boolean",
+      "name": "Dismissable"
+    },
+    "isKeyboardDismissDisabled": {
+      "type": "boolean",
+      "name": "Keyboard Dismiss Disabled"
+    },
+    "shouldFlip": {
+      "type": "boolean",
+      "name": "Should Flip"
+    }
+  }
+}

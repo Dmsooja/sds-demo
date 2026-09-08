@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "TextEmphasis",
+    "filePath": "src/ui/primitives/Text/Text.tsx"
+  },
+  "codeProperties": {
+    "elementType": {
+      "name": "Element Type",
+      "type": "string"
+    }
+  }
+}

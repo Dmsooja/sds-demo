@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Textarea",
+    "filePath": "src/ui/primitives/Textarea/Textarea.tsx"
+  },
+  "codeProperties": {
+    "isResizable": {
+      "type": "boolean",
+      "name": "Resizable",
+      "defaultValue": true
+    },
+    "placeholder": {
+      "type": "string",
+      "name": "Placeholder"
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled"
+    },
+    "isRequired": {
+      "type": "boolean",
+      "name": "Required"
+    },
+    "isReadOnly": {
+      "type": "boolean",
+      "name": "Read Only"
+    }
+  }
+}

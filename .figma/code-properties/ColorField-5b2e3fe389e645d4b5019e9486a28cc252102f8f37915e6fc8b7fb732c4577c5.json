@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ColorField",
+    "filePath": "node_modules/react-aria-components/src/ColorField.tsx"
+  },
+  "codeProperties": {
+    "channel": {
+      "type": "string",
+      "name": "Channel",
+      "options": [
+        "",
+        "hue",
+        "saturation",
+        "lightness",
+        "brightness",
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "": "Default (Hex)",
+          "hue": "Hue",
+          "saturation": "Saturation",
+          "lightness": "Lightness",
+          "brightness": "Brightness",
+          "red": "Red",
+          "green": "Green",
+          "blue": "Blue",
+          "alpha": "Alpha"
+        }
+      }
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled"
+    }
+  }
+}

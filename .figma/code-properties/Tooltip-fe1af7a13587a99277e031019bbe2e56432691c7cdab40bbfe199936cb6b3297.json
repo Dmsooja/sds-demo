@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Tooltip",
+    "filePath": "src/ui/primitives/Tooltip/Tooltip.tsx"
+  },
+  "codeProperties": {
+    "offset": {
+      "type": "number",
+      "name": "Offset",
+      "defaultValue": 16
+    },
+    "placement": {
+      "type": "string",
+      "name": "Placement",
+      "options": [
+        "top",
+        "bottom",
+        "left",
+        "right",
+        "top left",
+        "top right",
+        "bottom left",
+        "bottom right"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "top": "Top",
+          "bottom": "Bottom",
+          "left": "Left",
+          "right": "Right",
+          "top left": "Top Left",
+          "top right": "Top Right",
+          "bottom left": "Bottom Left",
+          "bottom right": "Bottom Right"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "PricingCard",
+    "filePath": "src/ui/compositions/Cards/Cards.tsx"
+  },
+  "codeProperties": {
+    "heading": {
+      "name": "Heading",
+      "type": "string"
+    },
+    "price": {
+      "name": "Price",
+      "type": "string"
+    },
+    "priceCurrency": {
+      "name": "Price Currency",
+      "type": "string"
+    },
+    "priceLabel": {
+      "name": "Price Label",
+      "type": "string",
+      "defaultValue": "/ mo"
+    },
+    "size": {
+      "name": "Size",
+      "type": "string",
+      "defaultValue": "large",
+      "options": [
+        "large",
+        "small"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "large": "Large",
+          "small": "Small"
+        }
+      }
+    },
+    "variant": {
+      "name": "Variant",
+      "type": "string",
+      "defaultValue": "stroke",
+      "options": [
+        "default",
+        "stroke",
+        "brand"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "default": "Default",
+          "stroke": "Stroke",
+          "brand": "Brand"
+        }
+      }
+    },
+    "action": {
+      "name": "Action Label",
+      "type": "string"
+    },
+    "actionVariant": {
+      "name": "Action Variant",
+      "type": "string",
+      "defaultValue": "primary",
+      "options": [
+        "primary",
+        "secondary",
+        "neutral",
+        "subtle",
+        "destructive"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "primary": "Primary",
+          "secondary": "Secondary",
+          "neutral": "Neutral",
+          "subtle": "Subtle",
+          "destructive": "Destructive"
+        }
+      }
+    },
+    "actionDisabled": {
+      "name": "Action Disabled",
+      "type": "boolean"
+    }
+  }
+}

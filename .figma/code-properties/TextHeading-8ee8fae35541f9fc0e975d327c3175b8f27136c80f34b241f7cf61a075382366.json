@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "TextHeading",
+    "filePath": "src/ui/primitives/Text/Text.tsx"
+  },
+  "codeProperties": {
+    "elementType": {
+      "name": "Element Type",
+      "type": "string",
+      "defaultValue": "h3"
+    },
+    "lineClamp": {
+      "name": "Line Clamp",
+      "type": "number"
+    }
+  }
+}

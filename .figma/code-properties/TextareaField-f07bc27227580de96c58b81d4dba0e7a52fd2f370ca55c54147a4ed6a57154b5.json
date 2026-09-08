@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "TextareaField",
+    "filePath": "src/ui/primitives/Textarea/Textarea.tsx"
+  },
+  "codeProperties": {
+    "label": {
+      "type": "string",
+      "name": "Label"
+    },
+    "description": {
+      "type": "string",
+      "name": "Description"
+    },
+    "placeholder": {
+      "type": "string",
+      "name": "Placeholder"
+    },
+    "errorMessage": {
+      "type": "string",
+      "name": "Error Message"
+    },
+    "isResizable": {
+      "type": "boolean",
+      "name": "Resizable"
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled"
+    },
+    "isRequired": {
+      "type": "boolean",
+      "name": "Required"
+    },
+    "isReadOnly": {
+      "type": "boolean",
+      "name": "Read Only"
+    },
+    "isInvalid": {
+      "type": "boolean",
+      "name": "Invalid"
+    }
+  }
+}

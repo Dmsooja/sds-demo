@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "PricingCardSkeleton",
+    "filePath": "src/ui/compositions/Cards/Cards.tsx"
+  },
+  "codeProperties": {
+    "size": {
+      "name": "Size",
+      "type": "string",
+      "options": [
+        "large",
+        "small"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "large": "Large",
+          "small": "Small"
+        }
+      }
+    }
+  }
+}

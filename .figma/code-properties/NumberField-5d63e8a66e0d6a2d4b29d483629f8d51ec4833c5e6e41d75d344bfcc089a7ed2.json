@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "NumberField",
+    "filePath": "node_modules/react-aria-components/src/NumberField.tsx"
+  },
+  "codeProperties": {
+    "value": {
+      "type": "number",
+      "name": "Value"
+    },
+    "defaultValue": {
+      "type": "number",
+      "name": "Default Value"
+    },
+    "minValue": {
+      "type": "number",
+      "name": "Min Value"
+    },
+    "maxValue": {
+      "type": "number",
+      "name": "Max Value"
+    },
+    "step": {
+      "type": "number",
+      "name": "Step"
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled"
+    },
+    "isReadOnly": {
+      "type": "boolean",
+      "name": "Read Only"
+    },
+    "isRequired": {
+      "type": "boolean",
+      "name": "Required"
+    },
+    "isWheelDisabled": {
+      "type": "boolean",
+      "name": "Wheel Disabled"
+    },
+    "isInvalid": {
+      "type": "boolean",
+      "name": "Invalid"
+    },
+    "autoFocus": {
+      "type": "boolean",
+      "name": "Auto Focus"
+    },
+    "name": {
+      "type": "string",
+      "name": "Name"
+    },
+    "placeholder": {
+      "type": "string",
+      "name": "Placeholder"
+    },
+    "formatOptions": {
+      "type": "string",
+      "name": "Format Options"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "SwitchField",
+    "filePath": "src/ui/primitives/Switch/Switch.tsx"
+  },
+  "codeProperties": {
+    "label": {
+      "type": "string",
+      "name": "Label"
+    },
+    "description": {
+      "type": "string",
+      "name": "Description"
+    },
+    "errorMessage": {
+      "type": "string",
+      "name": "Error Message"
+    },
+    "isSelected": {
+      "type": "boolean",
+      "name": "Selected"
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled"
+    },
+    "isRequired": {
+      "type": "boolean",
+      "name": "Required"
+    },
+    "isReadOnly": {
+      "type": "boolean",
+      "name": "Read Only"
+    }
+  }
+}

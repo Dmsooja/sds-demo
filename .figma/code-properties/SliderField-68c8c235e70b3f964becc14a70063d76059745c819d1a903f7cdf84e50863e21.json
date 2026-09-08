@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "SliderField",
+    "filePath": "src/ui/primitives/Slider/Slider.tsx"
+  },
+  "codeProperties": {
+    "label": {
+      "type": "string",
+      "name": "Label"
+    },
+    "description": {
+      "type": "string",
+      "name": "Description"
+    },
+    "showOutput": {
+      "type": "boolean",
+      "name": "Show Output"
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled"
+    },
+    "minValue": {
+      "type": "number",
+      "name": "Min Value"
+    },
+    "maxValue": {
+      "type": "number",
+      "name": "Max Value"
+    },
+    "step": {
+      "type": "number",
+      "name": "Step"
+    }
+  }
+}

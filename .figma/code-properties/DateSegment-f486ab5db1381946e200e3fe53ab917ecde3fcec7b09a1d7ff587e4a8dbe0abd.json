@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "DateSegment",
+    "filePath": "node_modules/react-aria-components/src/DateField.tsx"
+  },
+  "codeProperties": {
+    "segment": {
+      "type": {
+        "name": "other",
+        "value": "figma-reference"
+      },
+      "control": false
+    }
+  }
+}
