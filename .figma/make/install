@@ -1,0 +1,14 @@
+#!/bin/bash
+set -e
+
+echo "Installing project dependencies (npm ci)"
+
+# Use a clean, reproducible install when the lockfile is present; fall back to
+# npm install otherwise.
+if [[ -f package-lock.json ]]; then
+  npm ci
+else
+  npm install
+fi
+
+echo "Dependencies installed"

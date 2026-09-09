@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ColorSlider",
+    "filePath": "node_modules/react-aria-components/src/ColorSlider.tsx"
+  },
+  "codeProperties": {
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled"
+    }
+  }
+}

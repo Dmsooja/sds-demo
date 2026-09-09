@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Tooltip",
+    "filePath": "node_modules/react-aria-components/src/Tooltip.tsx"
+  },
+  "codeProperties": {
+    "placement": {
+      "name": "Placement",
+      "type": "string",
+      "defaultValue": "top",
+      "options": [
+        "top",
+        "bottom",
+        "left",
+        "right",
+        "top left",
+        "top right",
+        "bottom left",
+        "bottom right",
+        "left top",
+        "left bottom",
+        "right top",
+        "right bottom"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "top": "Top",
+          "bottom": "Bottom",
+          "left": "Left",
+          "right": "Right",
+          "top left": "Top Left",
+          "top right": "Top Right",
+          "bottom left": "Bottom Left",
+          "bottom right": "Bottom Right",
+          "left top": "Left Top",
+          "left bottom": "Left Bottom",
+          "right top": "Right Top",
+          "right bottom": "Right Bottom"
+        }
+      }
+    },
+    "isOpen": {
+      "name": "Open",
+      "type": "boolean"
+    },
+    "defaultOpen": {
+      "name": "Default Open",
+      "type": "boolean"
+    },
+    "isEntering": {
+      "name": "Is Entering",
+      "type": "boolean"
+    },
+    "isExiting": {
+      "name": "Is Exiting",
+      "type": "boolean"
+    },
+    "offset": {
+      "name": "Offset",
+      "type": "number"
+    },
+    "crossOffset": {
+      "name": "Cross Offset",
+      "type": "number"
+    },
+    "shouldFlip": {
+      "name": "Should Flip",
+      "type": "boolean"
+    },
+    "containerPadding": {
+      "name": "Container Padding",
+      "type": "number"
+    },
+    "arrowBoundaryOffset": {
+      "name": "Arrow Boundary Offset",
+      "type": "number"
+    }
+  }
+}

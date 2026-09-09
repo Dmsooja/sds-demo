@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "GridItem",
+    "filePath": "src/ui/layout/Grid/Grid.tsx"
+  },
+  "codeProperties": {
+    "column": {
+      "name": "Column",
+      "description": "Grid column position (start / span)",
+      "type": "string"
+    },
+    "row": {
+      "name": "Row",
+      "description": "Grid row position (start / span)",
+      "type": "string"
+    },
+    "area": {
+      "name": "Area",
+      "description": "Specific grid area name",
+      "type": "string"
+    }
+  }
+}

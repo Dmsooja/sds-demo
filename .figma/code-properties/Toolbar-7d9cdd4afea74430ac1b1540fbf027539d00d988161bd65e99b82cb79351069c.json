@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Toolbar",
+    "filePath": "node_modules/react-aria-components/src/Toolbar.tsx"
+  },
+  "codeProperties": {
+    "orientation": {
+      "name": "Orientation",
+      "type": "string",
+      "options": [
+        "horizontal",
+        "vertical"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "horizontal": "Horizontal",
+          "vertical": "Vertical"
+        }
+      }
+    }
+  }
+}

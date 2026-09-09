@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod +x /Users/dsoumare/Documents/dev/demos/sds-make-local-demo/sds-demo/.figma/make/setup /Users/dsoumare/Documents/dev/demos/sds-make-local-demo/sds-demo/.figma/make/install /Users/dsoumare/Documents/dev/demos/sds-make-local-demo/sds-demo/.figma/make/dev /Users/dsoumare/Documents/dev/demos/sds-make-local-demo/sds-demo/.figma/make/verify)"
+    ]
+  }
+}

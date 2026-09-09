@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Disclosure",
+    "filePath": "node_modules/react-aria-components/src/Disclosure.tsx"
+  },
+  "codeProperties": {
+    "isExpanded": {
+      "type": "boolean",
+      "name": "Expanded"
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled"
+    }
+  }
+}

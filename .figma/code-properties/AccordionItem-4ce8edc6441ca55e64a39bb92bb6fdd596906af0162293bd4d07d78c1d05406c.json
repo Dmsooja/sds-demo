@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "AccordionItem",
+    "filePath": "src/ui/primitives/Accordion/Accordion.tsx"
+  },
+  "codeProperties": {
+    "title": {
+      "name": "Title",
+      "type": "string"
+    },
+    "isExpanded": {
+      "name": "Expanded",
+      "type": "boolean"
+    },
+    "isDisabled": {
+      "name": "Disabled",
+      "type": "boolean"
+    }
+  }
+}

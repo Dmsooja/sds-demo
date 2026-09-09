@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "TooltipTrigger",
+    "filePath": "node_modules/react-aria-components/src/Tooltip.tsx"
+  },
+  "codeProperties": {
+    "delay": {
+      "name": "Delay",
+      "type": "number",
+      "description": "The delay in milliseconds before the tooltip appears."
+    },
+    "closeDelay": {
+      "name": "Close Delay",
+      "type": "number",
+      "description": "The delay in milliseconds before the tooltip disappears."
+    },
+    "isDisabled": {
+      "name": "Disabled",
+      "type": "boolean",
+      "defaultValue": false
+    }
+  }
+}

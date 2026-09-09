@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Accordion",
+    "filePath": "src/ui/primitives/Accordion/Accordion.tsx"
+  },
+  "codeProperties": {
+    "allowsMultipleExpanded": {
+      "name": "Allows Multiple Expanded",
+      "type": "boolean",
+      "description": "Whether multiple items can be expanded at the same time."
+    },
+    "isDisabled": {
+      "name": "Disabled",
+      "type": "boolean"
+    }
+  }
+}

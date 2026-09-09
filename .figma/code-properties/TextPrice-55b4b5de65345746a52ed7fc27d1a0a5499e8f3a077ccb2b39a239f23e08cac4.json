@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "TextPrice",
+    "filePath": "src/ui/primitives/Text/Text.tsx"
+  },
+  "codeProperties": {
+    "currency": {
+      "name": "Currency",
+      "type": "string"
+    },
+    "price": {
+      "name": "Price",
+      "type": "string"
+    },
+    "label": {
+      "name": "Label",
+      "type": "string"
+    },
+    "size": {
+      "name": "Size",
+      "type": "string",
+      "defaultValue": "large",
+      "options": [
+        "small",
+        "large"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "small": "Small",
+          "large": "Large"
+        }
+      }
+    }
+  }
+}

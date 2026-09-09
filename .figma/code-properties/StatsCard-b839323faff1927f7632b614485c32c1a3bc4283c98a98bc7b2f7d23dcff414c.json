@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "StatsCard",
+    "filePath": "src/ui/compositions/Cards/Cards.tsx"
+  },
+  "codeProperties": {
+    "stat": {
+      "name": "Stat",
+      "type": "string"
+    },
+    "description": {
+      "name": "Description",
+      "type": "string"
+    },
+    "icon": {
+      "name": "Icon",
+      "type": {
+        "name": "other",
+        "value": "figma-reference"
+      },
+      "control": false
+    }
+  }
+}

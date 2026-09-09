@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Heading",
+    "filePath": "node_modules/react-aria-components/src/Heading.tsx"
+  },
+  "codeProperties": {
+    "level": {
+      "type": "number",
+      "name": "Level",
+      "defaultValue": 3
+    }
+  }
+}
