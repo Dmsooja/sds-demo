@@ -23,7 +23,7 @@ export function WelcomeHero() {
           className="welcome-hero-title"
           align="center"
           title="Welcome Home"
-          subtitle={<>We're happy to have&nbsp;you.</>}
+          subtitle={<>We're happy to have&nbsp;you</>}
         />
         <Form singleLine>
           <Input aria-label="Email address" placeholder="you@example.com" />

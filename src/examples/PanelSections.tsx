@@ -54,6 +54,12 @@ export function PanelSections() {
 
       <Section padding={sectionPadding} variant="neutral">
         <Panel alignSecondary="center" type="half" gap={flexGap}>
+          <Image
+            src="https://picsum.photos/seed/City skyline/1200/900"
+            alt="City skyline"
+            aspectRatio="4-3"
+            size="medium"
+          />
           <FlexItem size="half">
             <Flex direction="column" gap="600">
               <TextContentHeading
@@ -71,12 +77,6 @@ export function PanelSections() {
               </Text>
             </Flex>
           </FlexItem>
-          <Image
-            src="https://picsum.photos/seed/City skyline/1200/900"
-            alt="City skyline"
-            aspectRatio="4-3"
-            size="medium"
-          />
         </Panel>
       </Section>
 

@@ -60,7 +60,7 @@ export function HeaderAuth() {
 
   const { isTabletDown } = useMediaQuery();
 
-  const navItems = ["Pricing", "Solutions", "Resources"];
+  const navItems = ["Solutions", "Resources"];
 
   const navigation = (
     <Navigation direction={isTabletDown ? "column" : "row"}>

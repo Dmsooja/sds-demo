@@ -38,7 +38,7 @@ export function ProductDetails() {
             </Flex>
             <FlexItem>
               <Flex direction="column" gap="200">
-                <TextPrice currency="$" price="129.99" />
+                <TextPrice currency="$" price="119.99" />
               </Flex>
             </FlexItem>
             <Text>
