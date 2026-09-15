@@ -20,7 +20,11 @@ export function WelcomeHero() {
       >
         <TextContentTitle
           align="center"
-          title="Welcome Home"
+          title={
+            <span style={{ color: "var(--sds-color-text-danger-default)" }}>
+              Welcome Home
+            </span>
+          }
           subtitle={<>We're happy to have&nbsp;you.</>}
         />
         <Form singleLine>
