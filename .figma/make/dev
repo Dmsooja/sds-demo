@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Starts the Vite dev server. Runs for the whole session; killed on project close.
+set -euo pipefail
+
+cd "$(dirname "$0")/../.."
+
+# Load PORT/FIGMA_MAKE_URL so the server binds the same port the host expects.
+set -a
+. "$(dirname "$0")/env"
+set +a
+
+exec npm run app:dev -- --host --port "$PORT" --strictPort
