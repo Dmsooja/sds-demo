@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ButtonGroup",
+    "filePath": "src/ui/primitives/Button/Button.tsx"
+  },
+  "codeProperties": {
+    "align": {
+      "type": "string",
+      "name": "Align",
+      "description": "The alignment of buttons within the group.",
+      "defaultValue": "start",
+      "options": [
+        "start",
+        "end",
+        "center",
+        "justify",
+        "stack"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "start": "Start",
+          "end": "End",
+          "center": "Center",
+          "justify": "Justify",
+          "stack": "Stack"
+        }
+      }
+    }
+  }
+}

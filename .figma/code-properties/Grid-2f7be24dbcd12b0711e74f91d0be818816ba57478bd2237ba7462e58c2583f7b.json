@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Grid",
+    "filePath": "src/ui/layout/Grid/Grid.tsx"
+  },
+  "codeProperties": {
+    "columns": {
+      "name": "Columns",
+      "description": "Grid template columns",
+      "type": "string",
+      "defaultValue": "none"
+    },
+    "rows": {
+      "name": "Rows",
+      "description": "Grid template rows",
+      "type": "string",
+      "defaultValue": "none"
+    },
+    "gap": {
+      "name": "Gap",
+      "description": "Gap between grid items",
+      "type": "string",
+      "options": [
+        "",
+        "100",
+        "200",
+        "300",
+        "400",
+        "600",
+        "800",
+        "1200",
+        "1600"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "100": "100",
+          "200": "200",
+          "300": "300",
+          "400": "400",
+          "600": "600",
+          "800": "800",
+          "1200": "1200",
+          "1600": "1600",
+          "": "Default"
+        }
+      }
+    },
+    "columnGap": {
+      "name": "Column Gap",
+      "description": "Column gap between grid items",
+      "type": "string",
+      "options": [
+        "",
+        "100",
+        "200",
+        "300",
+        "400",
+        "600",
+        "800",
+        "1200",
+        "1600"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "100": "100",
+          "200": "200",
+          "300": "300",
+          "400": "400",
+          "600": "600",
+          "800": "800",
+          "1200": "1200",
+          "1600": "1600",
+          "": "Default"
+        }
+      }
+    },
+    "rowGap": {
+      "name": "Row Gap",
+      "description": "Row gap between grid items",
+      "type": "string",
+      "options": [
+        "",
+        "100",
+        "200",
+        "300",
+        "400",
+        "600",
+        "800",
+        "1200",
+        "1600"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "100": "100",
+          "200": "200",
+          "300": "300",
+          "400": "400",
+          "600": "600",
+          "800": "800",
+          "1200": "1200",
+          "1600": "1600",
+          "": "Default"
+        }
+      }
+    },
+    "flow": {
+      "name": "Flow",
+      "description": "Grid auto flow direction",
+      "type": "string",
+      "options": [
+        "",
+        "row",
+        "column",
+        "row dense",
+        "column dense"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "": "Default",
+          "row": "Row",
+          "column": "Column",
+          "row dense": "Row Dense",
+          "column dense": "Column Dense"
+        }
+      }
+    },
+    "container": {
+      "name": "Container",
+      "description": "Container with max-width",
+      "type": "boolean",
+      "defaultValue": false
+    },
+    "justifyItems": {
+      "name": "Justify Items",
+      "description": "Alignment of items along inline axis",
+      "type": "string",
+      "defaultValue": "stretch",
+      "options": [
+        "start",
+        "end",
+        "center",
+        "stretch"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "start": "Start",
+          "end": "End",
+          "center": "Center",
+          "stretch": "Stretch"
+        }
+      }
+    },
+    "alignItems": {
+      "name": "Align Items",
+      "description": "Alignment of items along block axis",
+      "type": "string",
+      "defaultValue": "stretch",
+      "options": [
+        "start",
+        "end",
+        "center",
+        "stretch"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "start": "Start",
+          "end": "End",
+          "center": "Center",
+          "stretch": "Stretch"
+        }
+      }
+    }
+  }
+}

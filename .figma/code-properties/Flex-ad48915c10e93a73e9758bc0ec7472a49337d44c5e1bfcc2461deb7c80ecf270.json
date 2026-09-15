@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Flex",
+    "filePath": "src/ui/layout/Flex/Flex.tsx"
+  },
+  "codeProperties": {
+    "alignPrimary": {
+      "name": "Align Primary",
+      "type": "string",
+      "defaultValue": "start",
+      "options": [
+        "start",
+        "end",
+        "center",
+        "stretch",
+        "space-between"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "start": "Start",
+          "end": "End",
+          "center": "Center",
+          "stretch": "Stretch",
+          "space-between": "Space Between"
+        }
+      }
+    },
+    "alignSecondary": {
+      "name": "Align Secondary",
+      "type": "string",
+      "defaultValue": "start",
+      "options": [
+        "start",
+        "end",
+        "center",
+        "stretch",
+        "space-between"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "start": "Start",
+          "end": "End",
+          "center": "Center",
+          "stretch": "Stretch",
+          "space-between": "Space Between"
+        }
+      }
+    },
+    "direction": {
+      "name": "Direction",
+      "type": "string",
+      "defaultValue": "row",
+      "options": [
+        "row",
+        "row-reverse",
+        "column",
+        "column-reverse"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "row": "Row",
+          "row-reverse": "Row Reverse",
+          "column": "Column",
+          "column-reverse": "Column Reverse"
+        }
+      }
+    },
+    "gap": {
+      "name": "Gap",
+      "type": "string",
+      "options": [
+        "",
+        "100",
+        "200",
+        "300",
+        "400",
+        "600",
+        "800",
+        "1200",
+        "1600"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "100": "100",
+          "200": "200",
+          "300": "300",
+          "400": "400",
+          "600": "600",
+          "800": "800",
+          "1200": "1200",
+          "1600": "1600",
+          "": "Default"
+        }
+      }
+    },
+    "type": {
+      "name": "Type",
+      "type": "string",
+      "defaultValue": "auto",
+      "options": [
+        "quarter",
+        "third",
+        "half",
+        "auto"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "quarter": "Quarter",
+          "third": "Third",
+          "half": "Half",
+          "auto": "Auto"
+        }
+      }
+    },
+    "container": {
+      "name": "Container",
+      "type": "boolean",
+      "defaultValue": false
+    },
+    "wrap": {
+      "name": "Wrap",
+      "type": "boolean",
+      "defaultValue": false
+    }
+  }
+}

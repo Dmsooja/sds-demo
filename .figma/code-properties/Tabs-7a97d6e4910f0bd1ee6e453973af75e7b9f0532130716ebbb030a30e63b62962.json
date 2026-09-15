@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Tabs",
+    "filePath": "src/ui/primitives/Tab/Tab.tsx"
+  },
+  "codeProperties": {
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the tabs component is disabled."
+    },
+    "disabledKeys": {
+      "type": "string",
+      "name": "Disabled Keys",
+      "description": "Keys of tabs that are disabled."
+    }
+  }
+}
