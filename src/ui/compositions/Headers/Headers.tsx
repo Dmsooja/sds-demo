@@ -7,7 +7,6 @@ import {
   Avatar,
   AvatarBlock,
   Button,
-  ButtonDanger,
   ButtonGroup,
   Dialog,
   DialogModal,
@@ -44,7 +43,7 @@ export function HeaderAuth() {
       >
         Log in
       </Button>
-      <ButtonDanger
+      <Button
         size="small"
         onPress={() =>
           login({
@@ -54,13 +53,19 @@ export function HeaderAuth() {
         }
       >
         Register
-      </ButtonDanger>
+      </Button>
     </>
   );
 
   const { isTabletDown } = useMediaQuery();
 
-  const navItems = ["Pricing", "Solutions", "Resources", "Contact"];
+  const navItems = [
+    "Pricing",
+    "Solutions",
+    "Community",
+    "Resources",
+    "Contact",
+  ];
 
   const navigation = (
     <Navigation direction={isTabletDown ? "column" : "row"}>

@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-# Runs once on first open of the project. System-level prerequisites.
-set -euo pipefail
-
-# This project needs Node.js and npm, which are provided by the host environment.
-node --version
-npm --version
-
-echo "setup: system prerequisites OK"
