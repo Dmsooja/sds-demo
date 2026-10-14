@@ -93,7 +93,7 @@ export function ProductGrid() {
               </Flex>
             </FlexItem>
           </Flex>
-          <Flex type="quarter" wrap gap="600">
+          <Flex type="third" wrap gap="600">
             {isLoading ? (
               <>
                 <ProductInfoCardSkeleton />
