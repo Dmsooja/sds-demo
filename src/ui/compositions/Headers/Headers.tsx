@@ -44,6 +44,7 @@ export function HeaderAuth() {
         Log in
       </Button>
       <Button
+        className={clsx("header-register-button")}
         size="small"
         onPress={() =>
           login({

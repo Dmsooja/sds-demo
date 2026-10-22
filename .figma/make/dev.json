@@ -2,38 +2,38 @@
   "pointAndEdit": {
     "priorityPaths": {
       "prefer": [
+        "src/examples/**/*.{ts,tsx}",
         "src/App.tsx",
-        "src/examples/**/*.tsx"
+        "src/main.tsx"
       ],
       "deprioritize": [
-        "src/data/**/*",
-        "src/ui/icons/**/*",
-        "src/ui/hooks/**/*",
-        "src/ui/utils/**/*",
-        "src/ui/images/**/*"
+        "src/ui/compositions/**/*.{ts,tsx}",
+        "src/ui/primitives/**/*.{ts,tsx}",
+        "src/ui/layout/**/*.{ts,tsx}",
+        "src/ui/hooks/**/*.{ts,tsx}",
+        "src/ui/utils/**/*.{ts,tsx}",
+        "src/ui/icons/**/*.{ts,tsx}"
       ],
       "exclude": [
-        "src/figma/**/*",
-        "src/stories/**/*",
-        "scripts/**/*",
-        "**/*.figma.ts",
-        "**/*.figma.tsx",
-        "**/*.figma.js",
-        "**/*.figma.jsx",
-        "**/*.figma.batch.*",
-        "**/*.stories.*",
-        "dist/**/*",
-        ".storybook/**/*"
+        "src/figma/**",
+        "src/data/**",
+        "src/stories/**",
+        "scripts/**",
+        ".storybook/**",
+        "**/node_modules/**",
+        "dist/**"
       ]
     },
     "libraryPaths": {
       "local": [
-        "src/ui/primitives/**/*.tsx",
-        "src/ui/compositions/**/*.tsx",
-        "src/ui/layout/**/*.tsx"
+        "src/ui/compositions/**/*.{ts,tsx}",
+        "src/ui/primitives/**/*.{ts,tsx}",
+        "src/ui/layout/**/*.{ts,tsx}",
+        "src/ui/hooks/**/*.{ts,tsx}",
+        "src/ui/utils/**/*.{ts,tsx}"
       ],
       "external": [
-        "node_modules/react-aria-components/**/*"
+        "node_modules/react-aria-components/**"
       ]
     },
     "pathClassification": {
@@ -41,48 +41,32 @@
     },
     "exclusions": [
       {
-        "glob": "src/figma/**/*",
-        "reason": "All files under src/figma/ are Figma Code Connect mapping files (*.figma.ts, *.figma.batch.*) and must not be selected as point-and-edit source anchors."
+        "glob": "src/figma/**",
+        "reason": "Figma Code Connect mapping files (.figma.ts, .figma.batch.ts, .figma.batch.json) are never UI source anchors; they are metadata files mapping Figma components to code snippets."
       },
       {
-        "glob": "**/*.figma.ts",
-        "reason": "Figma Code Connect template files are mapping/metadata files, not renderable UI sources."
+        "glob": "src/data/**",
+        "reason": "Data layer files (contexts, providers, services, types) do not participate in rendering UI elements and are not appropriate source anchors for point-and-edit changes."
       },
       {
-        "glob": "**/*.figma.tsx",
-        "reason": "Figma Code Connect template files are mapping/metadata files, not renderable UI sources."
+        "glob": "src/stories/**",
+        "reason": "Storybook story files are documentation and test harnesses, not production UI rendering code."
       },
       {
-        "glob": "**/*.figma.js",
-        "reason": "Figma Code Connect template files are mapping/metadata files, not renderable UI sources."
+        "glob": "scripts/**",
+        "reason": "Tooling and code-generation scripts (token sync, icon sync, Figma plugin scripts) have no role in UI rendering."
       },
       {
-        "glob": "**/*.figma.jsx",
-        "reason": "Figma Code Connect template files are mapping/metadata files, not renderable UI sources."
+        "glob": ".storybook/**",
+        "reason": "Storybook configuration files are build tooling, not UI source."
       },
       {
-        "glob": "**/*.figma.batch.*",
-        "reason": "Figma Code Connect batch mapping files are metadata artifacts, not renderable UI sources."
+        "glob": "**/node_modules/**",
+        "reason": "Third-party installed packages are not editable source files in this project."
       },
       {
-        "glob": "src/stories/**/*",
-        "reason": "Storybook story files are documentation/catalog surfaces, not the active app UI source anchors."
-      },
-      {
-        "glob": "scripts/**/*",
-        "reason": "Build and codegen scripts (icon extraction, token sync, Figma plugin code) are tooling, not UI sources."
-      },
-      {
-        "glob": "**/*.stories.*",
-        "reason": "Storybook story files are documentation/catalog surfaces, not point-and-edit targets."
-      },
-      {
-        "glob": "dist/**/*",
-        "reason": "Build output artifacts should never be selected as source anchors."
-      },
-      {
-        "glob": ".storybook/**/*",
-        "reason": "Storybook configuration files are tooling infrastructure, not UI rendering sources."
+        "glob": "dist/**",
+        "reason": "Build output directory; files here are generated artifacts, not source anchors."
       }
     ],
     "generated": {
@@ -90,9 +74,9 @@
       "source": "setup-agent.point-and-edit-path-classifier",
       "prompt": "same-turn-setup-subagent-v5",
       "model": "claude-sonnet-4-6",
-      "createdAt": "2026-09-15T00:00:00.000Z",
-      "confidence": 0.92,
-      "explanation": "The repository has a clear layered structure with app-specific composition surfaces in src/examples/ and src/App.tsx, a well-defined local design-system library under src/ui/primitives/, src/ui/compositions/, and src/ui/layout/ with barrel exports and Storybook documentation, and all Figma Code Connect mapping files isolated under src/figma/ and *.figma.* globs — making classification straightforward with high confidence."
+      "createdAt": "2026-10-22T00:00:00.000Z",
+      "confidence": 0.95,
+      "explanation": "The repository has a clear separation between app-specific page composition files in src/examples (the primary render surface used by App.tsx) and a well-structured shared design-system library in src/ui with stable barrel exports, making classification straightforward and high-confidence."
     }
   }
 }

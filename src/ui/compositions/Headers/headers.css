@@ -41,6 +41,10 @@
   }
 }
 
+.header-register-button {
+  --button-background-color: var(--sds-color-text-danger-default);
+}
+
 .navigation-dialog {
   border: none;
   border-radius: 0;
