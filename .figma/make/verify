@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Verifies the dev server is reachable. Runs after dev on each open.
+set -euo pipefail
+
+cd "$(dirname "$0")"
+
+set -a
+. ./env
+set +a
+
+URL="http://localhost:${PORT}"
+
+for i in $(seq 1 30); do
+  if curl -sSf -o /dev/null "$URL"; then
+    echo "verify: dev server reachable at $URL"
+    exit 0
+  fi
+  sleep 1
+done
+
+echo "verify: dev server not reachable at $URL after 30s" >&2
+exit 1

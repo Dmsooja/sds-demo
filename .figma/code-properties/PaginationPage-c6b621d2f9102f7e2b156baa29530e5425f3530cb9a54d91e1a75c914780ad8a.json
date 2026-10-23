@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "PaginationPage",
+    "filePath": "src/ui/primitives/Pagination/Pagination.tsx"
+  },
+  "codeProperties": {
+    "current": {
+      "type": "boolean",
+      "name": "Current",
+      "defaultValue": false
+    }
+  }
+}

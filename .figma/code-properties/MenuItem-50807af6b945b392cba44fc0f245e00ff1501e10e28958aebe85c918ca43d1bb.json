@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "MenuItem",
+    "filePath": "src/ui/primitives/Menu/Menu.tsx"
+  },
+  "codeProperties": {
+    "textValue": {
+      "type": "string",
+      "name": "Text Value",
+      "description": "A string representation of the menu item's content for accessibility and typeahead."
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the menu item is disabled."
+    }
+  }
+}

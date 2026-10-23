@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "DialogModal",
+    "filePath": "src/ui/primitives/Dialog/Dialog.tsx"
+  },
+  "codeProperties": {
+    "isDismissable": {
+      "type": "boolean",
+      "name": "Dismissable",
+      "description": "Whether the dialog modal can be dismissed by clicking outside."
+    },
+    "isKeyboardDismissDisabled": {
+      "type": "boolean",
+      "name": "Keyboard Dismiss Disabled",
+      "description": "Whether keyboard dismissal is disabled."
+    }
+  }
+}

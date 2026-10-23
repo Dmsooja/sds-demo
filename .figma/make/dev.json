@@ -1,0 +1,127 @@
+{
+  "pointAndEdit": {
+    "priorityPaths": {
+      "prefer": [
+        "src/App.tsx",
+        "src/main.tsx",
+        "src/examples/**",
+        "src/ui/compositions/**",
+        "src/ui/layout/**"
+      ],
+      "deprioritize": [
+        "src/ui/primitives/**",
+        "src/ui/icons/**",
+        "src/ui/utils/**",
+        "src/ui/hooks/**",
+        "src/data/**"
+      ],
+      "exclude": [
+        "**/*.figma.ts",
+        "**/*.figma.tsx",
+        "**/*.figma.js",
+        "**/*.figma.jsx",
+        "**/*.figma.template.*",
+        "src/figma/**",
+        "scripts/**",
+        ".storybook/**",
+        ".github/**",
+        ".cursor/**",
+        "node_modules/**",
+        "dist/**",
+        "**/*.d.ts",
+        "**/*.stories.*",
+        "**/*.test.*",
+        "**/*.spec.*"
+      ]
+    },
+    "libraryPaths": {
+      "local": [
+        "src/ui/primitives/**",
+        "src/ui/compositions/**",
+        "src/ui/layout/**",
+        "src/ui/icons/**",
+        "src/ui/hooks/**",
+        "src/ui/utils/**"
+      ],
+      "external": []
+    },
+    "pathClassification": {
+      "classifier": "sonnet"
+    },
+    "exclusions": [
+      {
+        "glob": "**/*.figma.ts",
+        "reason": "Figma Code Connect mapping files are not UI source anchors."
+      },
+      {
+        "glob": "**/*.figma.tsx",
+        "reason": "Figma Code Connect mapping files are not UI source anchors."
+      },
+      {
+        "glob": "**/*.figma.js",
+        "reason": "Figma Code Connect mapping files are not UI source anchors."
+      },
+      {
+        "glob": "**/*.figma.jsx",
+        "reason": "Figma Code Connect mapping files are not UI source anchors."
+      },
+      {
+        "glob": "**/*.figma.template.*",
+        "reason": "Figma Code Connect mapping templates are not UI source anchors."
+      },
+      {
+        "glob": "src/figma/**",
+        "reason": "Code Connect mapping directory, not rendered UI."
+      },
+      {
+        "glob": "scripts/**",
+        "reason": "Tooling scripts for tokens, icons and metadata sync."
+      },
+      {
+        "glob": ".storybook/**",
+        "reason": "Storybook tooling configuration."
+      },
+      {
+        "glob": ".github/**",
+        "reason": "CI and repo configuration."
+      },
+      {
+        "glob": ".cursor/**",
+        "reason": "Editor tooling rules."
+      },
+      {
+        "glob": "node_modules/**",
+        "reason": "Installed dependencies, not project source."
+      },
+      {
+        "glob": "dist/**",
+        "reason": "Build output."
+      },
+      {
+        "glob": "**/*.d.ts",
+        "reason": "Type declaration files do not render UI."
+      },
+      {
+        "glob": "**/*.stories.*",
+        "reason": "Storybook stories are catalog docs, not app UI anchors."
+      },
+      {
+        "glob": "**/*.test.*",
+        "reason": "Tests are not UI source anchors."
+      },
+      {
+        "glob": "**/*.spec.*",
+        "reason": "Tests are not UI source anchors."
+      }
+    ],
+    "generated": {
+      "schemaVersion": 2,
+      "source": "setup-agent.point-and-edit-path-classifier",
+      "prompt": "same-turn-setup-subagent-v5",
+      "model": "claude-sonnet-4-6",
+      "createdAt": "2026-10-23T00:00:00Z",
+      "confidence": 0.7,
+      "explanation": "Vite React app with a clear src/App.tsx and src/examples composition layer over a local src/ui design system with barrel exports, but src/ui contents and story locations were only partially inspected."
+    }
+  }
+}

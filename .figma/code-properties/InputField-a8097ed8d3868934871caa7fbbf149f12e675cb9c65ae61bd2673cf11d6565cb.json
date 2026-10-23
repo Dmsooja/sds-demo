@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "InputField",
+    "filePath": "src/ui/primitives/Input/Input.tsx"
+  },
+  "codeProperties": {
+    "label": {
+      "type": "string",
+      "name": "Label",
+      "description": "The label for the input field."
+    },
+    "placeholder": {
+      "type": "string",
+      "name": "Placeholder",
+      "description": "Placeholder text for the input."
+    },
+    "description": {
+      "type": "string",
+      "name": "Description",
+      "description": "A description displayed below the input."
+    },
+    "errorMessage": {
+      "type": "string",
+      "name": "Error Message",
+      "description": "An error message to display for the input field."
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the input field is disabled."
+    },
+    "isRequired": {
+      "type": "boolean",
+      "name": "Required",
+      "description": "Whether the input field is required."
+    },
+    "isReadOnly": {
+      "type": "boolean",
+      "name": "Read Only",
+      "description": "Whether the input field is read-only."
+    },
+    "isInvalid": {
+      "type": "boolean",
+      "name": "Invalid",
+      "description": "Whether the input field is in an invalid state."
+    }
+  }
+}

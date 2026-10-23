@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Dialog",
+    "filePath": "src/ui/primitives/Dialog/Dialog.tsx"
+  },
+  "codeProperties": {
+    "type": {
+      "type": "string",
+      "name": "Type",
+      "description": "The visual style of the dialog.",
+      "defaultValue": "card",
+      "options": [
+        "sheet",
+        "card"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "sheet": "Sheet",
+          "card": "Card"
+        }
+      }
+    }
+  }
+}
