@@ -20,8 +20,11 @@ export function WelcomeHero() {
       >
         <TextContentTitle
           align="center"
-          title="Welcome Home"
-          subtitle={<>We're happy to have&nbsp;you.</>}
+          title={
+            <span style={{ color: "var(--sds-color-text-danger-default)" }}>
+              Welcome Home
+            </span>
+          }
         />
         <Form singleLine>
           <Input aria-label="Email address" placeholder="you@example.com" />
