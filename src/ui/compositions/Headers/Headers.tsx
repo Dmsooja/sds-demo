@@ -62,7 +62,6 @@ export function HeaderAuth() {
   const navItems = [
     "Pricing",
     "Solutions",
-    "Community",
     "Resources",
     "Contact",
   ];
